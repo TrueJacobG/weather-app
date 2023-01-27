@@ -1,0 +1,65 @@
+.App {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center;
+  font-size: 2vw;
+}
+
+.week {
+  width: 100%;
+  display: flex;
+  margin-bottom: 3em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.week .card {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 1em;
+  border: 0.1em solid black;
+  border-radius: 10%;
+  margin-left: 0.5em;
+}
+
+.week .icon {
+  width: 3em;
+}
+
+.today {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.today .icon {
+  width: 5em;
+  height: auto;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-left: 2em;
+  padding-right: 3em;
+  border-right: 0.3em solid black;
+}
+
+.today .info {
+  display: grid;
+  width: 80%;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  text-align: center;
+}
+
+.hours .time {
+  width: 100%;
+  text-align: center;
+}
+
+.hours .icon {
+  width: 3em;
+}
+
+.hours .hour {
+  border-bottom: 1px solid gray;
+}
